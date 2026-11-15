@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Рабочая тетрадь Scaffold</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Golos+Text:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap">
 <style>
 /* Тетрадь в клетку: лист с полями, синяя ручка, жёлтые стикеры, цветные карты Scaffold */
 :root{
@@ -15,7 +15,7 @@
   --sticky:#fff2a1; --sticky-2:#ffe979; --sticky-ink:#3b3300;
   --ok:#1b8a4b; --ok-soft:#e1f4e8; --warn:#b26a00; --bad:#c23b3b; --bad-soft:#fbe6e6;
   --panel:#ffffff; --shadow:0 1px 2px rgba(20,30,60,.06),0 6px 18px rgba(20,30,60,.06);
-  --f-display:"Unbounded","Arial Black",system-ui,sans-serif;
+  --f-display:"Montserrat","Arial",system-ui,sans-serif;
   --f-body:"Golos Text","Segoe UI",system-ui,-apple-system,sans-serif;
   --f-hand:"Caveat","Segoe Print","Comic Sans MS",cursive;
   --r:12px;
@@ -43,7 +43,7 @@ body{background:var(--paper);color:var(--ink);font:15px/1.55 var(--f-body);-webk
 button,input,textarea,select{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--pen);outline-offset:2px}
-h1,h2,h3{font-family:var(--f-display);font-weight:600;letter-spacing:-.01em;text-wrap:balance;margin:0}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;letter-spacing:-.015em;text-wrap:balance;margin:0}
 
 /* ---------- Shell ---------- */
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
